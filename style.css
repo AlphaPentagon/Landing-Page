@@ -1,0 +1,157 @@
+
+
+/* Main */
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+/* Header */
+
+#header-section {
+  background-color: #1F2937;
+  width: 100%;
+  display: flex;
+  direction: column;
+  justify-content: center;
+  
+
+}
+
+#header-container {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+#header-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  padding-bottom: 100px;
+}
+
+/* Logo */
+
+#header-logo {
+  color: #F9FAF8;
+  width: 40%;
+}
+
+#h1 {
+  font-size: 24px;
+}
+
+/* Navbar */
+
+#header-navbar {
+  width: 45%;
+}
+
+#header-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style: none;
+  
+}
+
+#header-links li,
+#header-subtext {
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+/* Header content */
+
+#header-main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-bottom: 100px;
+  justify-content: space-between;
+  width: 80%;
+}
+
+h2 {
+  font-size: 48px;
+  font-weight: bold;
+  color: #F9FAF8;
+  margin-bottom: 0;
+}
+
+#header-button {
+  background-color: #3882F6;
+  font-size: 18px;
+  color: #E5E7EB;
+  font-weight: bold;
+  padding: 8px;
+  width: 150px;;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border-radius: 5px;  
+}
+
+#header-image {
+  background-color: #e5e7eb7a;
+  color: #E5E7EB;
+  font-weight: bold;
+  width: 50%;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+#header-welcome {
+  width: 38%;
+}
+
+/* Portfolio section */
+
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#portfolio-container {
+  width: 55%;
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 100px;
+}
+
+.portfolio-item-container {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  }
+
+  .portfolio-item-container p {
+    width: 65%;
+  }
+
+.portfolio-item {
+  border: 2px solid #3882f6;
+  border-radius: 10px;
+  height: 200px;
+  width: 200px;
+}
+
+h3 {
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
