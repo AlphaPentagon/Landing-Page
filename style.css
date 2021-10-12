@@ -141,11 +141,12 @@ h2 {
     width: 65%;
   }
 
-.portfolio-item {
+.portfolio-img {
   border: 2px solid #3882f6;
   border-radius: 10px;
   height: 200px;
   width: 200px;
+  
 }
 
 h3 {
@@ -154,4 +155,87 @@ h3 {
   color: #1f2937;
   margin-top: 50px;
   margin-bottom: 50px;
+}
+
+/* Quote section */
+
+#quote-section {
+  background-color: #E5E7EB;
+  padding: 150px 0px;
+}
+
+#quote-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+
+blockquote {
+  font-size: 36px;
+  font-weight: 400px;
+  font-style: italic;
+  margin-bottom: 0px;
+  color:#484849;
+}
+
+#quote-section p {
+  font-weight: bolder;
+  text-align: right;
+}
+
+/* Sign up section */
+
+#sign-section {
+  padding: 140px 0px;  
+}
+
+#sign-container {
+  width: 60%;
+  height: 180px;
+  background-color: #3882F6;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;;  
+}
+
+#sign-text h4 {
+  font-size: 24px;
+  color: #F9FAF8;
+  margin-bottom: 0px;
+}
+
+#sign-text p {
+  font-size: 20px;
+  color: #E5E7EB;
+}
+
+#sign-button {
+  border: 2px solid #F9FAF8;
+  border-radius: 10px;
+}
+
+#sign-button p {
+  font-size: 22px;
+  color: #F9FAF8;
+  text-align: center;
+  padding: 10px 30px;
+  margin: 0px;
+  font-weight: bold;
+  
+}
+
+/* Footer section */
+
+footer {
+  background-color: #1f2937;
+  padding: 30px 0px;
+}
+
+footer p {
+  font-size: 16px;
+  color: #E5E7EB;
+  text-align: center;
 }
